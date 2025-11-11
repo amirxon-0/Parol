@@ -1,6 +1,6 @@
 import string
 # Foydalanuvchidan parol kiritishni so‘raymiz
-parol = input("Parolni kiriting: ").strip()   #  @ABc123  
+parol = input("Parolni kiriting: ").strip()  
 xatolar = []  # bo'sh list
 # 1. Uzunlik: kamida 8 ta belgi bo‘lishi kerak
 if len(parol) < 8:
