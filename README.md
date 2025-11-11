@@ -1,7 +1,7 @@
 import string
 # Foydalanuvchidan parol kiritishni so‘raymiz
 parol = input("Parolni kiriting: ").strip()  
-xatolar = []  # bo'sh list
+xatolar = [] 
 # 1. Uzunlik: kamida 8 ta belgi bo‘lishi kerak
 if len(parol) < 8:
     xatolar.append("Parol kamida 8 ta belgidan iborat bo'lishi kerak.")
